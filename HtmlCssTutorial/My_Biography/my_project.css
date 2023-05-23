@@ -38,7 +38,7 @@ body {
       }
       25%{
         background-position: right bottom;
-       }
+        }
       50% {
         background-position: left bottom;
       }
