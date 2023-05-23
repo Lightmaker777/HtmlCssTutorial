@@ -44,7 +44,7 @@
         left: 200px;
   }
   
-  h2 {font-size: 25px;
+  h2 {font-size: 30px;
     line-height: 2.8;
     margin-bottom: 20px;
     color: rgb(8, 49, 11);
@@ -58,7 +58,7 @@
         top: 520px;
         left: 930px;
         font-family: cursive;
-        font-size: 150%;
+        font-size: 180%;
   }
   
   ul.sparkly-list {
@@ -106,4 +106,12 @@
   
  
 
+.stars {
+  font-size: 220%;
+  color: rgb(8, 49, 11);
+    position: fixed;
+        top: 60px;
+        left: 60px;
 
+
+}
