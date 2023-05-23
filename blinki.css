@@ -1,0 +1,117 @@
+@keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+  }
+  
+  .blinking-text {
+    animation: rainbow 3s linear infinite;
+  }
+  text.container {
+    
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .profile-photo {
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
+  
+    
+  .bio {
+    font-size: 25px;
+    line-height: 2.8;
+    margin-bottom: 20px;
+    color: rgb(8, 49, 11);
+    font-family: cursive;
+    position: fixed;
+        top: 180px;
+        right:130px;
+      
+  }
+  h1 {
+
+    position: fixed;
+        top: 273px;
+        left: 200px;
+  }
+  
+  h2 {font-size: 30px;
+    line-height: 2.8;
+    margin-bottom: 20px;
+    color: rgb(8, 49, 11);
+    font-family: cursive;
+    position: fixed;
+        top: 170px;
+        left: 930px;
+  }
+  h3 {
+    position: fixed;
+        top: 520px;
+        left: 930px;
+        font-family: cursive;
+        font-size: 180%;
+  }
+  
+  ul.sparkly-list {
+    font-family: cursive;
+    font-size: 25px;
+    list-style-type: none;
+    line-height: 2.7;
+    padding: 0;
+    margin-bottom: 20px;
+    color: rgb(8, 49, 11);
+    position: fixed;
+        top: 577px;
+        right: 730px;
+  }
+  
+  ul.sparkly-list li:before {
+    content: '\2022'; /* Bullet point symbol */
+    color: #f5be08; /* Sparkly color */
+    margin-right: 10px;
+  }
+  
+  .contact {
+    font-size: 220%;
+    font-family: cursive;
+    margin-bottom: 20px;
+    color: rgb(8, 49, 11);
+    position: fixed;
+        bottom: 60px;
+        left: 60px;
+  }
+  
+  a.sparkly-link {
+    text-decoration: none;
+    color: #0000ff; /* Sparkly color */
+  }
+  
+  a.sparkly-link:hover {
+    text-decoration: underline;
+    color: #ff00ff; /* Hover color */
+  }
+  
+  .rainbow-text {
+    animation: rainbow-blink 2s infinite;
+  }
+  
+ 
+
+.stars {
+  font-size: 220%;
+  color: rgb(8, 49, 11);
+    position: fixed;
+        top: 60px;
+        left: 60px;
+
+
+}
